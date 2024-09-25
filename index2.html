@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="initial-scale=1.0, user-scalable=yes"/>
+  <!--this is the title of my webpage-->
+  <title>My favorite sport</title>
+  <style>
+    p{
+  font-size: 20px;
+  color: white;
+}
+table, th, td {
+  border: 1px solid black;
+}
+  </style>
+
+</head>
+<!--this is the intro of my webpage-->
+<header>
+<body style="background-color:lightcoral;">
+  <h1 style="text-align: center;">Formula 1</h1>
+
+  <p style="text-align: center;"> My favorite sport is Formula 1.</p><br>
+</header>
+<!--this is the main content of my webpage which tells us about formula 1-->
+<main>
+  <!--this section describes what formula 1 is-->
+  <section>
+  <h3><u>WHAT IS FORMULA 1?</u></h3>
+  <p>
+    Formula 1 is a type of motor sport where different teams compete against each other in grand
+    prix races. These grand prix races are held in different parts of the world.
+    Some of the most popular races are held in Monaco, Singapore, Britain, and Italy. 
+  </p><br>
+  </section>
+
+<!--this is for my second image related to formula 1-->
+  <figure>
+  <img src="Images/F1.jpg" style="width: 300px;height:300px" />
+  <!--this is for the caption of my image-->
+  <figcaption>
+    <p><i>This image is of Monaco grand prix</i></p>
+  </figcaption>
+  </figure>
+  
+  <!--this section describes how many teams are in formula 1-->
+  <section>
+  <h3><u>HOW MANY TEAMS ARE THERE IN FORMULA 1?</u></h3>
+  <p>
+    Formula 1 is a team sport. There are currently <mark>10 teams</mark> in it that compete against each other.
+    Each team consists of <mark>2 drivers</mark>.
+  </p><br><br>
+  </section>
+  
+  <section>
+  <!--this is for my third image related to formula 1-->
+  <figure>
+    <img src="Images/team.jpg" style="width: 300px;height:300px" />
+    <!--this is for the caption of my image-->
+    <figcaption>
+      <p><i>This image is of red bull racing team</i></p>
+    </figcaption>
+  </figure>
+  </section>
+    
+    <section>
+    <!--this is my youtube video about the basics of formula 1-->
+      <a href="https://youtu.be/xTZr2IoXvXk?si=vwbVIJs4ktqssX2D">Click here to watch the beginner's guide</a><br />
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/xTZr2IoXvXk?si=2EzSkYqDE-dZcD8q"
+      frameborder="1"><br>
+      </iframe>
+    </section>
+
+    <!--this is my table about my favorite formula 1 drivers-->
+    <section>
+  <h2>My top three favorite drivers in F1</h2>
+  <table style="width: 100%;">
+    <tr>
+      <th>Driver name</th>
+      <th>Teams they have drived for</th>
+      <th>number of race wins</th>
+    </tr>
+    <tr>
+      <td>Charles Leclerc</td>
+      <td>Ferrari</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <td>lewis Hamilton</td>
+      <td>Mclaren, Mercedes</td>
+      <td>105</td>
+    </tr>
+    <tr>
+      <td>Sebastian Vettel</td>
+      <td>BMW Sauber, Toro Rosso, Red Bull, Ferrari and Aston Martin</td>
+      <td>53</td>
+    </tr>
+  </table>
+    </section>
+
+    <!--this is a form asking for your feedback about your understanding on f1-->
+    <section>
+      <!--heading of the form-->
+  <h2>Please complete this feedback form:</h2>
+  <form name="user-login-form" id="login-form" method="get">
+    <!--input type text for full name-->
+    <label for="fullname">Full Name:</label>
+    <input type="text" id="fullname" name="fullname" required><br><br>
+    
+    <!--input type radio to know if people understood about F1 or not-->
+    <fieldset><!--I added fieldset because I want to group the related elements.-->
+      <legend>Do you now understand the basics of Formula 1</legend>
+      <input type="radio" id="yes" name="yes" required>
+      <label for="yes">Yes</label><br/>
+      
+      <input type="radio" id="no" name="no" required>
+      <label for="no">No</label><br/>
+    </fieldset><br>
+    
+    <!--input type date for people to enter today's date-->
+    <label for="tdate">Today's date</label>
+    <input type="date" id="tdate" name="tdate" required><br><br>
+
+    <!--input type submit to submit the form-->
+    <input type="submit" value="Submit">
+
+    <!--input type reset to rest your form-->
+    <input type="reset" value="Reset">
+  </form>
+    </section>
+</main>
+</body>
+</html>
